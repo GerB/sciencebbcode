@@ -1,0 +1,26 @@
+{
+    "name": "ger/sciencebbcode",
+    "type": "phpbb-extension",
+    "description": "Adds some extra BBcodes useful for scientific boards",
+    "homepage": "",
+    "version": "1.0.0-dev",
+    "time": "2017-01-04",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ger",
+            "email": "",
+            "homepage": "https://github.com/GerB",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "display-name": "Science BBcodes",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2,"
+        }
+    }
+}

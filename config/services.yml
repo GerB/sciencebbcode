@@ -1,0 +1,10 @@
+services:
+    ger.sciencebbcode.helpers.tex_helper:
+        class: ger\sciencebbcode\helpers\tex_helper
+
+    ger.sciencebbcode.listener:
+        class: ger\sciencebbcode\event\main_listener
+        arguments:
+            - '@auth'
+        tags:
+            - { name: event.listener }
